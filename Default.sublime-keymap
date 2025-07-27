@@ -1,0 +1,11 @@
+[
+	{ "keys": ["alt+home"], "command": "indent_move", "args": {"to": "begin"} },
+	{ "keys": ["alt+shift+home"], "command": "indent_move", "args": {"to": "begin", "extend": true} },
+	{ "keys": ["alt+end"], "command": "indent_move", "args": {"to": "end"} },
+	{ "keys": ["alt+shift+end"], "command": "indent_move", "args": {"to": "end", "extend": true} },
+
+	{ "keys": ["alt+up"], "command": "indent_move", "args": {"to": "prev"} },
+	{ "keys": ["alt+down"], "command": "indent_move", "args": {"to": "next"} },
+	{ "keys": ["alt+shift+up"], "command": "indent_move", "args": {"to": "prev", "extend": true} },
+	{ "keys": ["alt+shift+down"], "command": "indent_move", "args": {"to": "next", "extend": true} },
+]
